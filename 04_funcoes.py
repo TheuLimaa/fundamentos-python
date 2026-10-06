@@ -35,8 +35,12 @@ Não existe solução pronta aqui de propósito. Tente, rode, erre, ajuste.
 # Escreva uma função chamada "somar" que recebe dois números e devolve a soma
 # deles. Depois, CHAME essa função com dois números quaisquer e imprima o
 # resultado.
+def somar(a, b):
+    resultado = a + b
+    return resultado
 
-
+resultado_final = somar(7, 7)
+print(resultado_final)
 # ============================================================================
 # Exercício 2 — função que recebe uma lista
 # ============================================================================
@@ -44,7 +48,12 @@ Não existe solução pronta aqui de propósito. Tente, rode, erre, ajuste.
 # devolve a média deles (soma dividida pela quantidade de itens).
 # Dica: use o que você já sabe de loop (ou a função pronta sum() e len()).
 # Teste com: media([10, 20, 30]) -> deveria devolver 20.0
+def media(lista):
+    resultado = sum(lista) / len(lista)
+    return resultado
 
+resultado_final = media([10, 20, 30])
+print(resultado_final)
 
 # ============================================================================
 # Exercício 3 — função ligada ao seu projeto real
@@ -52,7 +61,13 @@ Não existe solução pronta aqui de propósito. Tente, rode, erre, ajuste.
 # Escreva uma função chamada "calcular_valor" que recebe "litros" e
 # "preco_por_litro", e devolve o valor total (litros * preco_por_litro).
 # Teste com alguns valores diferentes.
+def calcular_valor(litros, preco_por_litro):
+    resultado = (litros * preco_por_litro)
 
+    return resultado
+
+resultado_final = calcular_valor(50,7)
+print(resultado_final)
 
 # ============================================================================
 # Exercício 4 — enxergando a função como "empacotar código repetido"
@@ -74,3 +89,11 @@ Não existe solução pronta aqui de propósito. Tente, rode, erre, ajuste.
 # Transforme isso numa função "checar_idade(nome, idade)" que faz esse
 # print sozinha, e chame ela duas vezes (uma pra João, outra pra Maria) —
 # sem repetir o if/else duas vezes no código.
+def checar_idade(nome, idade):
+    if idade < 18:
+        print(f"{nome} é menor de idade")
+    else:
+        print(f"{nome} é maior de idade")
+
+checar_idade("João", 15)
+checar_idade("Maria", 22)
