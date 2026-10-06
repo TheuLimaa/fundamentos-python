@@ -32,3 +32,10 @@ pra cá e importe elas.
 
 # escreva seus imports aqui, no topo do arquivo (por convenção, imports
 # sempre ficam no começo do arquivo, antes de qualquer outro código)
+from ferramentas import dobrar, saudacao
+
+resultado1 = dobrar(10)
+print(resultado1)
+
+resultado2 = saudacao("Matheus")
+print(resultado2)

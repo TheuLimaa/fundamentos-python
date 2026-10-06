@@ -8,10 +8,15 @@ aqui é praticar o import entre arquivos, não a função em si).
 
 
 def dobrar(numero):
-    # TODO: devolva o número multiplicado por 2
-    pass
+    resultado = (numero * 2)
+    return resultado
+
+
+
 
 
 def saudacao(nome):
-    # TODO: devolva o texto "Olá, <nome>!" (use f-string)
-    pass
+    resultado = f"Olá, {nome}!"
+    return resultado
+
+
