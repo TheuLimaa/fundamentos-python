@@ -26,16 +26,26 @@ Não existe solução pronta aqui de propósito. Tente, rode, erre, ajuste.
 # Crie uma variável "numero" com qualquer valor (ex.: numero = -5).
 # Escreva um if/elif/else que imprime "positivo", "negativo" ou "zero",
 # dependendo do valor.
-
 numero = -5
 # escreva seu if/elif/else aqui
 
-
+if numero > 0:
+    print("positivo")
+elif numero < 0:
+    print("negativo")
+else:
+    print("zero")
 # ============================================================================
 # Exercício 2 — maior ou menor de idade
 # ============================================================================
 # Crie uma variável "idade". Imprima "menor de idade" se for menor que 18,
 # senão imprima "maior de idade".
+idade = 20
+# escreva seu if/else aqui
+if idade < 18:
+    print("menor de idade")
+else:   
+    print("maior de idade")
 
 
 # ============================================================================
@@ -43,7 +53,16 @@ numero = -5
 # ============================================================================
 # Crie três variáveis numéricas (a, b, c). Usando if/elif/else (sem usar a
 # função pronta max()), descubra e imprima qual delas é a maior.
+a = 10
+b = 40
+c = 30
 
+if a > b and a > c:
+    print(f"{a} é o maior")
+elif b > a and b > c:
+    print(f"{b} é o maior")
+else:
+    print(f"{c} é o maior")
 
 # ============================================================================
 # Exercício 4 — classificar um veículo (conectando com o projeto de SQL)
@@ -55,3 +74,11 @@ numero = -5
 #
 # Dica: isso é o mesmo raciocínio do CASE WHEN que você já escreveu em SQL
 # (sql/tratamento_abastecimento.sql) — só que agora em Python.
+tipo_veiculo = "carro"
+
+if tipo_veiculo == "carro" or tipo_veiculo =="moto":
+    print("leve")
+elif tipo_veiculo == "caminhao" or tipo_veiculo == "onibus":
+    print("pesado")
+else:
+    print("desconhecido")       
