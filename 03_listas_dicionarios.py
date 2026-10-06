@@ -28,7 +28,10 @@ placas = ["ABC1D23", "XYZ9E88", "QWE4R56"]
 # a) Imprima o primeiro item da lista (posição 0)
 # b) Adicione "LMN7P12" no final da lista, com .append(...)
 # c) Imprima a lista inteira de novo, pra confirmar que o item novo entrou
+print(placas[0])
+placas.append("LMN7P12")
 
+print(placas)
 
 # ============================================================================
 # Exercício 2 — mexendo num dicionário
@@ -39,7 +42,11 @@ abastecimento = {"placa": "ABC1D23", "litros": 200.5, "valor": 1150.0}
 # c) Adicione uma nova chave "km_rodado" com o valor 350 (igual você faria
 #    numa lista, mas usando o nome da chave entre colchetes:
 #    dicionario["nome_da_chave"] = valor)
+print(abastecimento["placa"])
+print(abastecimento["valor"])
 
+abastecimento["km_rodado"] = 350
+print(abastecimento)
 
 # ============================================================================
 # Exercício 3 — uma lista de dicionários (igual vem de uma API)
@@ -53,3 +60,9 @@ abastecimentos = [
 # de cada dicionário e imprima o total no final — sem usar pandas, só Python puro.
 # Dica: lembra do "total = 0" antes do loop? Dentro do loop, cada "item" vai
 # ser um dicionário — então item["valor"] pega o valor daquela linha.
+total = 0
+
+for item in abastecimentos:
+    total = total + item["valor"]
+print(total)
+
