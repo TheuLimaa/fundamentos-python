@@ -4,23 +4,23 @@
 
 ## Por que criei esse projeto
 
-Nos outros dois projetos (`cotacoes-financeiras`, `tratamento-dados-sql`) percebi
-que ainda não domino a base de Python o suficiente pra escrever esse tipo de
-código sozinho — fico dependendo de pedir ajuda pra IA pra criar funções,
-estruturar arquivos, etc. Esse projeto é só pra fechar essa base.
+Criei esse projeto separado dos meus outros dois (`cotacoes-financeiras`,
+`tratamento-dados-sql`) pra treinar deliberadamente a base de Python —
+condicionais, loops, funções, módulos — escrevendo cada exercício com o meu
+próprio código, sem pressa de entregar algo funcionando.
 
 ## Trilha e status
 
-- [ ] `01_condicionais.py` — if / elif / else
-- [ ] `02_loops.py` — for / while
-- [ ] `03_listas_dicionarios.py` — listas e dicionários
+- [x] `01_condicionais.py` — if / elif / else (4 exercícios, todos rodando certo)
+- [x] `02_loops.py` — for / while (4 exercícios, todos rodando certo)
+- [x] `03_listas_dicionarios.py` — listas e dicionários (3 exercícios, todos rodando certo)
 - [ ] `04_funcoes.py` — funções
 - [ ] `05_modulos_imports/` — módulos e imports
 - [ ] `06_tratamento_erros.py` — try / except
 
 ## Próximo passo
 
-Começar pelo `01_condicionais.py`, exercício 1.
+Continuar pelo `04_funcoes.py` — funções (meu principal ponto de foco).
 
 ## Como estou trabalhando nesse projeto
 

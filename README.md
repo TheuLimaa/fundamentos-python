@@ -1,13 +1,13 @@
 # Fundamentos de Python
 
-Reforçando a base e a sintaxe de Python — condicionais, loops, listas e
-dicionários, funções, módulos e tratamento de erros — com exercícios que eu
-mesmo resolvo, sem código pronto de IA.
+Treino deliberado da base e da sintaxe de Python — condicionais, loops, listas
+e dicionários, funções, módulos e tratamento de erros — resolvendo cada
+exercício com o meu próprio código, do zero.
 
-Percebi, construindo meus outros projetos (`cotacoes-financeiras`,
-`tratamento-dados-sql`), que estava dependendo demais de pedir código pronto
-pra IA, sem entender o suficiente pra escrever sozinho. Este projeto existe
-pra fechar essa base.
+Criei esse projeto separado dos meus outros (`cotacoes-financeiras`,
+`tratamento-dados-sql`) justamente pra focar só na fundamentação, sem a
+pressão de entregar algo funcionando — aqui o objetivo é dominar a sintaxe e a
+lógica, exercício por exercício.
 
 ## Trilha de estudo (em ordem)
 
