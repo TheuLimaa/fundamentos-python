@@ -22,6 +22,8 @@ Não existe solução pronta aqui de propósito. Tente, rode, erre, ajuste.
 # ============================================================================
 # Use um for com range(...) para imprimir os números de 1 a 10, um por linha.
 # Dica: range(1, 11) gera os números de 1 até 10 (o segundo número NÃO entra).
+for i in range(1, 11):
+    print(i)
 
 
 # ============================================================================
@@ -31,15 +33,18 @@ Não existe solução pronta aqui de propósito. Tente, rode, erre, ajuste.
 # números de 1 a 100 e imprimir o resultado no final.
 # Dica: crie uma variável "total = 0" antes do loop, e vá somando dentro dele.
 
-
+total = 0
+for i in range(0,101):
+    total = total + i
+print(f'{total}')
 # ============================================================================
 # Exercício 3 — percorrer uma lista de placas
 # ============================================================================
 placas = ["ABC1D23", "XYZ9E88", "QWE4R56", "LMN7P12"]
-# Use um for pra imprimir cada placa dessa lista, uma por linha.
+for i in placas:
+    print(f'{i}')
 
-
-# ============================================================================
+# ===========================================================================
 # Exercício 4 — contar quantos abastecimentos passaram de um valor
 # ============================================================================
 valores = [120.50, 340.00, 89.90, 410.00, 75.30, 300.00]
@@ -47,3 +52,9 @@ valores = [120.50, 340.00, 89.90, 410.00, 75.30, 300.00]
 # maiores que 200. Imprima a contagem no final.
 # Dica: crie uma variável "contador = 0" antes do loop, e some 1 toda vez que
 # a condição do if for verdadeira.
+contador = 0
+
+for valor in valores:
+    if valor > 200:
+        contador = contador +1
+print(f'{contador}')
